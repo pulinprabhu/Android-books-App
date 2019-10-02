@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.bookstore.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/scienceLinear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sciencefiction"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/category_sciencefiction"
+            android:text="@string/category_science_fiction" />
+
+        <TextView
+            android:id="@+id/drama"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/category_drama"
+            android:text="@string/category_drama" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dramaLinear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingBottom="3dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/sciencefiction" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/drama" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionLinear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/action"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/category_action"
+            android:text="@string/category_action" />
+
+        <TextView
+            android:id="@+id/horror"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:background="@color/category_horror"
+            android:text="@string/category_horror" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/horrorLinear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/action"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/horror"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.heinrichreimersoftware:material-intro-1.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-intro-1.6.2.aar/6d2fdb9ee7bbef1f223edf18394f64ab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-intro-1.6.2.aar/6d2fdb9ee7bbef1f223edf18394f64ab/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
